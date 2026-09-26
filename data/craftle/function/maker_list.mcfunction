@@ -1,0 +1,8 @@
+tellraw @a [{translate:"maker.title","color":"yellow"}]
+tellraw @a [{translate:"maker.message.datapack","color":"blue"}]
+tellraw @a [{player:{name:"Mxpea38488"}},{"text":"-Aurelith_FW/Mxpea","color":"green"},{translate:"maker.message.aure.datapack"}]
+tellraw @a [{player:{name:"Nekoviet13"}},{"text":"-Nekoviet13","color":"green"},{translate:"maker.message.nekoviet.datapack"}]
+tellraw @a [{player:{name:"this_hacker"}},{"text":"-this_hacker","color":"green"},{translate:"maker.message.thishacker.datapack"}]
+tellraw @a [{translate:"maker.message.resourcepack","color":"blue"}]
+tellraw @a [{player:{name:"Aurelith_FW"}},{"text":"-Aurelith_FW/Mxpea","color":"green"},{translate:"maker.message.aure.resourcepack"}]
+tellraw @a [{"text":"========================","color":"yellow"}]

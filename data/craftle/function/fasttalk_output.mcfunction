@@ -1,0 +1,3 @@
+$execute if score temp craftle_ifBlock matches 0 run tellraw @a[team=$(teams)] [{translate:"msg.team.$(teams)",color:$(teams)},{selector:"@s"},{text:": "},{translate:"item.minecraft.$(Sid)",color:yellow}]
+$execute if score temp craftle_ifBlock matches 1 run tellraw @a[team=$(teams)] [{translate:"msg.team.$(teams)",color:$(teams)},{selector:"@s"},{text:": "},{translate:"block.minecraft.$(Sid)",color:yellow}]
+data modify storage craftle:temp Sid set value "air"
